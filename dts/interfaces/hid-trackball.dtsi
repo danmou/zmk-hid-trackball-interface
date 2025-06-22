@@ -37,10 +37,10 @@
             wait-ms = <0>;
             bindings
                 = <&macro_tap &kp CLCK>
-                , <&macro_wait_time 5>
                 , <&macro_tap &kp KP_NLCK>
-                , <&macro_wait_time 0>
+                , <&macro_wait_time 5>
                 , <&macro_tap &kp CLCK>
+                , <&macro_wait_time 0>
                 , <&macro_tap &kp KP_NLCK>
                 ;
         };
